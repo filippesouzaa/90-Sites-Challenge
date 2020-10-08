@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">To do List</h1>
+    <div style="text-align: center;">
+        <input placeholder="Task" class="insertField" type="text" id="newTask">
+        <button class="btn" id="sentTask">
+            <i class="icon-arrow-right"></i>
+        </button>
+    </div>
+
+    <section class="grid-container">
+        <div class="grid-item">
+            <h2 class="titlePost" id="todoContainer">To do</h2>
+
+        </div>
+        <div class="grid-item">
+            <h2 class="titlePost" id="doing">Doing</h2>
+        </div>
+        <div class="grid-item">
+            <h2 class="titlePost" id="did">Did</h2>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
