@@ -1,14 +1,10 @@
-const selectedProfile = document.querySelectorAll('.profile');
+const selectedProfile = document.querySelectorAll('.profileImage');
+function callback(index) {
+    selectedProfile[index].classList.add('activeName');
 
-function callback(e) {
-    console.log("Clicou")
 }
 
-selectedProfile.forEach(function() {
-    addEventListener('click', callback)
-})
-
-
+callback();
 
 
 

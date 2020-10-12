@@ -5,8 +5,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-li{
+li, ul{
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .logo{
@@ -15,55 +17,52 @@ li{
     padding-left: 80px;
 }
 
-.whosWatching{
-    font-size: 3.5vw; color: white;
-}
-
 .profileImage{
-    width: 150px;
-    position: absolute;
-    border: .3em solid;
+    max-width: 150px;
+
+
 }
 
 .profileName{
     font-size: 20px;
-    color: #808080;
-    padding-top: 150px;
-    text-transform: uppercase;
-    margin-left:30px;
-}
-
-.options{
-    display: grid;
-    width: 100%;
-    max-width: 850px;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fill, 9em);
-    grid-gap: 20px;
+    color: grey;
     
 }
+
+.profileImage:hover {
+    max-width: 150px;
+    display: block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: .3em solid #d0d0d0;
+
+}
+
+.activeName{
+    font-size: 20px;
+    color: #d0d0d0;
+    
+}
+
+.whosWatching{
+    font-size: 3.5vw; color: white;
+}
 .container{
-    margin-top: 200px;
-text-align: center;
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    justify-content: center;
 }
 
-.profile{
-    width: 160px;
-    height: 160px;
-}
 
-.profileName{
-    color:#d0d0d0;
-    width: auto;
-    margin-left: 110px;
-} 
-
+/* Button Style */
 .buttonStyle{
     justify-content: center;
     background-color: transparent;
     height: 60px;
     border: 1px solid grey;
     margin-top: 100px;
+    
 }
 
 .textButton{
@@ -77,5 +76,7 @@ text-align: center;
 }
 .buttonStyle:hover{
     color: #d0d0d0;
-    border:1px solid #d0d0d0; ;
+    border:1px solid #d0d0d0;
+    
+    
 }
