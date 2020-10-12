@@ -19,30 +19,28 @@ li, ul{
 
 .profileImage{
     max-width: 150px;
-
+    border-radius: 4px;
 
 }
 
 .profileName{
     font-size: 20px;
     color: grey;
-    
 }
 
-.profileImage:hover {
-    max-width: 150px;
-    display: block;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    border: .3em solid #d0d0d0;
-
-}
 
 .activeName{
     font-size: 20px;
-    color: #d0d0d0;
-    
+    color: #d0d0d0;    
+}
+
+.activePhoto{
+        max-width: 150px;
+        display: block;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        border: .3em solid #d0d0d0;
 }
 
 .whosWatching{
@@ -50,7 +48,7 @@ li, ul{
 }
 .container{
     display: grid;
-    grid-template-columns: 170px 170px 170px 170px;
+    grid-template-columns: 180px 180px 180px 180px;
     justify-content: center;
 }
 
