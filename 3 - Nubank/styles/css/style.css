@@ -11,7 +11,13 @@ body{
 }
 .firstContent{
     display: grid;
-    grid-template-columns: 275px 50px 80px;
+    grid-template-columns: auto auto;
+    
+}
+
+.rightIcons{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .iconBg{
@@ -20,6 +26,7 @@ body{
     width: 40px;
     height: 40px;
     overflow: hidden;
+    margin-right: 8px;
 }
 
 .top{
@@ -55,20 +62,28 @@ body{
     filter: opacity(100px);
     display: flex;
 }
-.categoriesContent{
-    background-color: #9824C7;
-    height: 100px;
-    border-radius: 3px;
-}
 
 .carrousel{
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
-    grid-gap: 10px;
     max-height: 100%;
     max-width: 100%;
+    border: 1px;
+    display: flex;
+    overflow-x: auto;
 }
+
+.carrousel::-webkit-scrollbar{
+    width: 0;
+}
+
+.categoriesContent{
+    background-color: #9824C7;
+    border-radius: 3px;
+    margin-right: 8px;
+    max-width: 100%;
+    padding-right: 50px;
+}
+
 
 .carrouselIcon{
     color: white;
@@ -82,11 +97,6 @@ body{
     font-size: 15px;
     overflow: hidden;
 }
-
-
-
-
-
 
 .hideElement{
     visibility: hidden;
