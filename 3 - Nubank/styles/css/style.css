@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 25px;
+    background-color: #82269E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 30px;
+
+}
+.firstContent{
+    display: grid;
+    grid-template-columns: 275px 50px 80px;
+}
+
+.iconBg{
+    background-color: #9A23C7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.top{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.accountContents{
+    margin-top: 20px;
+}
+
+.insideContent{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 3px;
+    max-width: auto;
+    max-height: auto;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 12px;
+}
+
+.contentCard{
+    color: grey;
+}
+
+.hideCreditCard{
+    background-color: #F5F5F5;
+    height: 100%;
+    line-height: 30px;
+    filter: opacity(100px);
+    display: flex;
+}
+.categoriesContent{
+    background-color: #9824C7;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.carrousel{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-gap: 10px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.carrouselIcon{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.carrouselText{
+    padding-left: 12px;
+    color: white;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.hideElement{
+    visibility: hidden;
+}

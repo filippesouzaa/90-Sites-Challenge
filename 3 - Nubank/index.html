@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/css/style.css" />
+    <link rel="stylesheet" href="styles/icons/css/all.css" />
+    <title>Nubank App</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="firstContent">
+            <span style="font-size: 18px;font-weight: bold;color:white; padding-top: 10px; text-align: left;">Olá,
+                Filipe!</span>
+            <div class="iconBg" id="hideContent">
+                <i class="icon far fa-eye-slash top"></i>
+            </div>
+            <div class="iconBg">
+                <i class="fas fa-cog top"></i>
+            </div>
+        </section>
+
+        <section class="accountContents">
+            <!-- Credit Card Section -->
+            <div class="insideContent">
+                <div style="padding: 10px">
+                    <p class="contentCard">
+                        <span>
+                            <i class="far fa-credit-card" style="margin-right: 15px;"></i>
+                            Credit Card
+                        </span>
+                    </p>
+                    <p style="font-size: 15px;" class="contentCard">
+                        Current Invoice
+                    </p>
+                    <p style="color: #5389F7; font-weight: bold; font-size: 25px;line-height: 30px;"
+                        id="hideCreditCard">
+                        <a id="hider1">U$ 800,00</a>
+                    </p>
+                    <p style="font-size: 15px;">
+                        <a id="hider3">Available limit <span style="color: green; font-weight: bold;">U$ 4503,23</span></a>
+                    </p>
+                </div>
+            </div>
+            <!-- Account Section -->
+            <div class="insideContent">
+                <div style="padding: 10px">
+                    <p class="contentCard">
+                        <span>
+                            <i class="fas fa-coins" style="margin-right: 15px;"></i>
+                            Account
+                        </span>
+                    </p>
+                    <p style="font-size: 15px;" class="contentCard">
+                        Avaible Balance
+                    </p>
+                    <p style="color: black; font-weight: bold; font-size: 25px;line-height: 30px;" id="hideAccount">
+                        <a id="hider2">U$ 8790,00</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Nubank Rewards -->
+            <div class="insideContent">
+                <div style="padding: 10px">
+                    <p class="contentCard">
+                        <span>
+                            <i class="fas fa-gift" style="margin-right: 15px;"></i>
+                            Rewards
+                        </span>
+                    </p>
+                    <p style="font-size: 15px;" class="contentCard">
+                        Total
+                    </p>
+                    <p style="color: black; font-weight: bold; font-size: 25px;">
+                        5.547 pts
+                    </p>
+                    <p style="font-size: 15px;">
+                        You accumulated <span style="color: green; font-weight: bold;">5.547</span> points this
+                        month.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="carrousel">
+                <div class="categoriesContent">
+                    <i class="fas fa-barcode carrouselIcon"></i>
+                    <p class="carrouselText">Pay</p>
+                </div>
+                <div class="categoriesContent">
+                    <i class="fas fa-arrow-up carrouselIcon"></i>
+                    <p class="carrouselText">Send</p>
+                </div>
+                <div class="categoriesContent">
+                    <i class="fas fa-arrow-down carrouselIcon"></i>
+                    <p class="carrouselText">Deposit</p>
+                </div>
+                <div class="categoriesContent">
+                    <i class="fas fa-user-friends carrouselIcon"></i>
+                    <p class="carrouselText">Invite</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -3,6 +3,8 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+    transform: translate3d(0,0,0);
 }
 
 li, ul{
@@ -12,7 +14,7 @@ li, ul{
 }
 
 .logo{
-    padding: 30px;
+    padding: 20px;
     width: 100px;
     padding-left: 80px;
 }
@@ -26,21 +28,25 @@ li, ul{
 .profileName{
     font-size: 20px;
     color: grey;
-}
+    text-transform: uppercase;
+    cursor: pointer;
 
+}
 
 .activeName{
     font-size: 20px;
-    color: #d0d0d0;    
+    color: #d0d0d0;   
+    cursor: pointer;
 }
 
 .activePhoto{
         max-width: 150px;
-        display: block;
+        display: inline-block;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
-        border: .3em solid #d0d0d0;
+        box-shadow: 0 0 0 .3em #d0d0d0;
+        cursor: pointer;
 }
 
 .whosWatching{
@@ -50,8 +56,12 @@ li, ul{
     display: grid;
     grid-template-columns: 180px 180px 180px 180px;
     justify-content: center;
+
 }
 
+.editProfile{
+    background-color: #3333;
+}
 
 /* Button Style */
 .buttonStyle{
@@ -59,22 +69,24 @@ li, ul{
     background-color: transparent;
     height: 60px;
     border: 1px solid grey;
-    margin-top: 100px;
-    
+    margin-top: 100px; 
+
 }
 
 .textButton{
     color: grey;
     font-size: 25px;
     padding: 50px;
+    text-transform: uppercase;
 }
 
 .textButton:hover{
     color: #d0d0d0;
+    cursor: pointer;
+
 }
 .buttonStyle:hover{
     color: #d0d0d0;
-    border:1px solid #d0d0d0;
-    
-    
+    border:1px solid #d0d0d0;    
+    cursor: pointer;
 }

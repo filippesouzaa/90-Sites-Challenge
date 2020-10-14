@@ -37,6 +37,8 @@ profileId1.addEventListener('mouseleave', saiu);
 profileId2.addEventListener('mouseenter', clicou2);
 profileId2.addEventListener('mouseleave', saiu2);
 
+
+
 // const selectedProfile = document.querySelectorAll('.profileImage');
 
 // function callback(){
