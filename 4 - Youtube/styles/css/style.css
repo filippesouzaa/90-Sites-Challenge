@@ -66,11 +66,17 @@ nav{
     width: 30px;
 }
 
+
+.container{
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
 /* Left Menu Content */
 
 .leftMenu{
     background-color: white;
-    max-width: 250px;
+    width: 250px;
     height: 100vh;
     overflow:scroll;
     overflow-x:hidden !important;
@@ -95,9 +101,80 @@ nav{
     width: 30px;
     height: 30px;
     overflow: hidden;
-
 }
 
 .leftContentImage{
     width: 100%;
+}
+
+/* Videos sections */
+
+.videos{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 370px));
+    height: 300px;
+}
+
+
+.thumbImage{
+    max-width: 350px;
+}
+
+
+.youtuberPhotoCenter{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    padding-top: 15px;
+    grid-area: profile;
+}
+
+/* video thumb with informations grid */
+.videoInfo{
+    display: grid;
+    grid-template-columns: auto auto 220px;
+    grid-template-areas:
+    "profile text text"
+    "profile author author"
+    "profile views date";
+}
+
+.author{
+    padding-left: 15px;
+    grid-area: author;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+    font-size: 14px;
+    color: #717171;
+}
+
+.date{
+    grid-area: date;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #717171;
+}
+.views{
+    grid-area: views;
+    padding-left: 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #717171;
+}
+
+.videoTitle{
+    grid-area: text;
+    margin-bottom: -10px;
+}
+
+.videoTitle{
+    padding: 15px;
+    font-weight: bold;
+}
+
+.videoContainer{
+    margin-top: 25px;
 }
