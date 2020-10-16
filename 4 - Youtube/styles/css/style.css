@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F9F9F9;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    padding-top: 30px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+nav{
+    background-color: white;
+    height: 60px;
+    padding: 0 16px;
+}
+
+.navigationBarContent{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconHeader{
+    font-size: 24px;
+    cursor: pointer;
+    color: #606060;
+}
+
+.ytLogo{
+    max-width: 100px;
+    padding-left: 30px;
+}
+
+.region{
+    font-size: 10px;
+}
+
+.searchBar{
+    height: 25px;
+    width: 650px;
+}
+
+.submitSearch{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.iconHeaderRight{
+    color: #606060;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+.profileImage{
+    margin-left: 60px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+/* Left Menu Content */
+
+.leftMenu{
+    background-color: white;
+    max-width: 250px;
+    height: 100vh;
+    overflow:scroll;
+    overflow-x:hidden !important;
+}
+
+.leftMenu::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.leftMenu::-webkit-scrollbar-thumb {
+    background: #CFCFCF;
+}
+
+.leftTabIcon{
+    margin-right: 20px;
+    font-size: 18px;
+    color: #606060;
+}
+
+.youtuberPhotoLeft{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+
+}
+
+.leftContentImage{
+    width: 100%;
+}
