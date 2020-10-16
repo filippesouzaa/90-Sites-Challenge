@@ -82,6 +82,7 @@ body{
     margin-right: 8px;
     max-width: 100%;
     padding-right: 50px;
+    flex: 1;
 }
 
 
