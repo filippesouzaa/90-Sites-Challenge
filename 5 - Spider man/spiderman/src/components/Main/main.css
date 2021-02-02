@@ -1,0 +1,41 @@
+.description {
+  color: #ffffff;
+  width: 500px;
+}
+
+.buttonsSection {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.pre-order-button{
+    background-color: #AF0805;
+    padding: 16px;
+    color: white;
+    border: solid 1px #AF0805;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.watch-teaser-button{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 16px;
+    border: solid 1px #AF0805;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+.contents{
+    padding-left: 300px;
+}
+
+.spiderman-title{
+    background-image: url("https://i.ibb.co/K0X7Mbg/logo.png");
+    height: 510px;
+    background-repeat: no-repeat;
+}
+

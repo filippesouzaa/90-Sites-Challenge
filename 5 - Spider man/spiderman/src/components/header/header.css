@@ -1,0 +1,28 @@
+.header-style{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.options{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    margin-right: 40px;
+}
+
+.left-side{
+    display: flex;
+    justify-content: space-between;
+}
+.spiderman-logo{
+    width: 40px;
+}
+
+.buttonsAndIcons{
+    color: #F9F9F9F9;
+}
