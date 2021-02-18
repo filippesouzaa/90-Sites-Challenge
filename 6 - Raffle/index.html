@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Raffle</title>
+  </head>
+  <body>
+    <div class="table">
+      <form class="content">
+        <h1>Online Raffler</h1>
+        <div id="options">
+          <input
+            id="option1"
+            class="inputOption"
+            placeholder="Option"
+            type="text"
+            required="required"
+            name="option1"
+          />
+          <input
+            id="option2"
+            class="inputOption"
+            placeholder="Option"
+            type="text"
+            required="required"
+            name="option2"
+          />
+        </div>
+        <p id="result"></p>
+        <div class="buttons">
+          <input
+            id="addOption"
+            onClick="getValues()"
+            class="buttonStyle"
+            type="button"
+            value="Raffle!"
+          />
+          <input
+            id="addOption"
+            onClick="newOption()"
+            class="buttonStyle"
+            type="button"
+            value="Add Option"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
