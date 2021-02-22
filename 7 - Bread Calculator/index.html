@@ -16,18 +16,13 @@
           class="input-style"
           type="number"
           placeholder="I'am using... (Grams)"
+          onchange="getValues()"
         />
-        <select class="select-style" id="yeast">
+        <select class="select-style" id="yeast" onchange="getValues()">
           <option id="DryYeast">Dry Yeast</option>
           <option id="Levain">Levain</option>
           <option id="FreshYeast">Fresh Yeast</option>
         </select>
-        <input
-          class="convert-button"
-          onClick="getValues()"
-          type="submit"
-          value="Convert"
-        />
       </div>
       <div class="result-container">
         <div class="card">
