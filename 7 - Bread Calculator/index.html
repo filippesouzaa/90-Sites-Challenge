@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
+    <title>Bread Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Yeast Converter</h1>
+      <div class="body-container">
+        <input
+          id="quantity"
+          class="input-style"
+          type="number"
+          placeholder="I'am using... (Grams)"
+        />
+        <select class="select-style" id="yeast">
+          <option id="DryYeast">Dry Yeast</option>
+          <option id="Levain">Levain</option>
+          <option id="FreshYeast">Fresh Yeast</option>
+        </select>
+        <input
+          class="convert-button"
+          onClick="getValues()"
+          type="submit"
+          value="Convert"
+        />
+      </div>
+      <div class="result-container">
+        <div class="card">
+          <span class="card-title">Dry Yeast</span>
+          <p id="resultDry" class="Grams"></p>
+        </div>
+        <div class="card">
+          <span class="card-title">Levain</span>
+          <p id="resultLevain" class="Grams"></p>
+        </div>
+        <div class="card">
+          <span class="card-title">Fresh Yeast</span>
+          <p id="resultFresh" class="Grams"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
