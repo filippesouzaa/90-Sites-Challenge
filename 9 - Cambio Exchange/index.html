@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cambio Exchange</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="header-image" src="cambio.png" />
+      <div class="inputs">
+        <input
+          id="money"
+          onchange="getCoin()"
+          type="number"
+          class="input-style"
+          placeholder="Value"
+        />
+        <select
+          id="coin"
+          onchange="getCoin()"
+          class="select-style"
+          name="select"
+        >
+          <option value="dolar">Dolar</option>
+          <option value="eur">Eur</option>
+        </select>
+      </div>
+      <span id="dolar-value" style="margin-top: 40px" class="dolar-value-title"
+        >R$:
+      </span>
+      <p style="margin-top: 40px">
+        <span class="dolar-value-title">Valor da moeda hoje:</span>
+        <span class="value-dolar" id="dolarToday" class="cambio"></span>
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
